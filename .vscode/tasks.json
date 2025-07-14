@@ -14,6 +14,20 @@
       },
       "problemMatcher": [],
       "detail": "Runs go test with verbose output"
+    },
+    {
+      "label": "Run Go",
+      "type": "shell",
+      "command": "go run ${file}",
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "detail": "Runs the current Go file"
     }
   ]
 }
